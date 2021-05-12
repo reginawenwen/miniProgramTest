@@ -1,0 +1,19 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+    <view class="page-body">
+        <view class="flex-wrp">
+          <view class="flex-item demo-text-1" bindtap="tipfun">
+            <image class="img-box" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/chengyun"></image>
+            <text>三林城运</text>
+          </view>
+          <view class="flex-item demo-text-1" bindtap="tipfun">
+            <image class="img-box" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/laojie"></image>
+            <text>三林老街</text>
+          </view>
+          <view class="flex-item demo-text-1" bindtap="toDetail">
+            <image class="img-box" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/qiantan"></image>
+            <text>三林前滩</text>
+          </view>
+        </view>
+    </view>
+</view>

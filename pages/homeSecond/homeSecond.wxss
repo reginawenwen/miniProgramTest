@@ -1,0 +1,26 @@
+/* pages/homeSecond/homeSecond.wxss */
+.page-body{
+  width: 100%;
+}
+.flex-wrp{
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(3, 33.33%);
+}
+.flex-item{
+  font-size: 30rpx;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  color: #666;
+  background-color: #fff;
+  border: 1rpx solid #eee;
+  padding: 35rpx 0;
+}
+.img-boxs{
+  width: 100rpx;
+  height: 210rpx;
+  margin-bottom: 25rpx;
+}

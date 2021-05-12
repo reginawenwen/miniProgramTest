@@ -1,0 +1,72 @@
+<!--pages/taskDetail/taskDetail.wxml-->
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view class="page-header">
+    <view class="page-header-title">
+      <view class="page-header-title-item">
+        <view class="page-header-title-item-line"></view>
+      </view>
+      <view class="page-header-title-item">任务信息</view>
+    </view>
+    <view class="page-header-content">
+      <view class="page-header-content-item">任务名称</view>
+      <view class="page-header-content-item">{{taskContent.modelType}}</view>
+      <view class="page-header-content-item">任务地址</view>
+      <view class="page-header-content-item">{{taskContent.warningAddress}}</view>
+      <view class="page-header-content-item">推送时间</view>
+      <view class="page-header-content-item">{{taskContent.warningDateFmt}}</view>
+      <view class="page-header-content-item">事件类型</view>
+      <view class="page-header-content-item">{{taskContent.warningName}}</view>
+      <view class="page-header-content-item">事件描述</view>
+      <view class="page-header-content-item">{{taskContent.remark}}</view>
+    </view>
+  </view>
+  <view class="page-checkcontent">
+    <view class="page-header-title">
+      <view class="page-header-title-item">
+        <view class="page-header-title-item-line"></view>
+      </view>
+      <view class="page-header-title-item">检查内容</view>
+    </view>
+    <view class="page-check-content">
+      <view class="section">
+        <view class="page-section-title">
+          <text class="form-required">*</text>
+          处置情况
+        </view>
+        <radio-group name="radio" class="radio-group"  bindchange="laternext">
+          <label class="radio-item">
+            <radio disabled="{{true}}" checked="{{taskContent.status==3}}" value="3" />处置完成</label>
+          <label class="radio-item">
+            <radio disabled="{{true}}" checked="{{taskContent.status==4}}" value="4" />无法处置</label>
+        </radio-group>
+      </view>
+      <view class="section">
+        <textarea disabled="{{true}}" placeholder="备注："  value='{{taskContent.remark}}'   bindblur='bindTextAreaBlur' />
+        </view>
+      <view class="section">
+        <view class="page-section-title">
+          <text class="form-required">*</text>
+          处置图片
+        </view>
+        <view class="page__bd">
+           <view class="uploadimg" wx:for='{{taskContent.images}}' wx:key='index'>
+             <view class="uploadimg-con">
+              <image style="width: 200rpx; height: 200rpx;" mode='aspectFill' src="{{API_HOST+'/'+item}}"></image>
+             </view>
+             <!-- <view class="closeimg" data-index="{{index}}" bindtap="handleDeleteImg">
+               <image style="width:100%;height:100%" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/cha%20%E6%8B%B7%E8%B4%9D%402x.png"></image>
+             </view> -->
+           </view>
+
+           <!-- <view class="uploadimg" bindtap="chooseImage" wx:if='{{files.length<3}}'>
+            <view class="uploadimg-con">+</view>
+           </view> -->
+        </view>
+      </view>
+    </view>
+  </view>
+  <view>
+    <button type="primary" bindtap="back">返回</button>
+  </view>
+</view>

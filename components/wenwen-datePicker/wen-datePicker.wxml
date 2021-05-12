@@ -1,0 +1,19 @@
+<!--miniprogram/wenwen-datePicker/wen-datePicker.wxml-->
+<view class="wenwen-pickerBox">
+  <view class="wen-pickerHead">
+    <text class="wen-star-time wen-head" bindtap="cancleTime">取消</text>
+    <text class="wen-star-time wen-head" bindtap="takeTime">确定</text>
+  </view>
+  <view>
+    <picker mode="date" value="{{date}}" bindchange="bindStartDateChange">
+      <view class="picker">
+        选择开始时间: {{startdate}}
+      </view>
+    </picker>
+        <picker mode="date" value="{{date}}" bindchange="bindEndDateChange">
+      <view class="picker">
+        选择结束时间: {{enddate}}
+      </view>
+    </picker>
+  </view>
+</view>

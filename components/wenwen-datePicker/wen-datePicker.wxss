@@ -1,0 +1,29 @@
+.wenwen-pickerBox{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  bottom: 160rpx;
+  background-color: #fff;
+  border-top: 1rpx solid #aaa;
+  z-index: 99;
+  height: 400rpx;
+}
+.wen-pickerHead{
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  border-bottom: 1rpx solid #eee;
+}
+.wen-head{
+  padding: 20rpx 0;
+}
+.wen-star-time{
+  flex: 1;
+}
+.wen-end-time{
+  flex: 1;
+}
+.picker{
+  padding: 20rpx;
+}

@@ -1,0 +1,24 @@
+<!--pages/homeSecond/homeSecond.wxml-->
+<view class="container">
+    <view class="page-body">
+        <view class="flex-wrp">
+          <view class="flex-item demo-text-1" data-index="1" data-title="环境道路积水" bindtap="toDetail">
+            <image class="img-boxs" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/%E7%A7%AF%E6%B0%B4%402x.png"></image>
+            <text>环境道路积水</text>
+          </view>
+          <view class="flex-item demo-text-1" data-index="2" data-title="环境噪音" bindtap="toDetail">
+            <image class="img-boxs" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/%E5%99%AA%E9%9F%B3%402x.png"></image>
+            <text>环境噪音</text>
+          </view>
+          <view class="flex-item demo-text-1" data-index="3" data-title="乱点治理" bindtap="toDetail">
+            <image class="img-boxs" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/%E4%B9%B1%E7%82%B9%402x.png"></image>
+            <text>乱点治理</text>
+          </view>
+          <view class="flex-item demo-text-1" data-index="4" data-title="客流" bindtap="toDetail">
+            <image class="img-boxs" src="https://bh-frontend.oss-cn-shanghai.aliyuncs.com/sipderMan/%E5%AE%A2%E6%B5%81%402x.png"></image>
+            <text>客流</text>
+          </view>
+        </view>
+    </view>
+</view>
+

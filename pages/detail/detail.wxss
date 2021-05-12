@@ -1,0 +1,106 @@
+/* pages/detail/detail.wxss */
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f4f7;
+  padding: 20rpx 0;
+}
+.page-header{
+  width: 95%;
+  background-color: white;
+  border-radius: 10rpx;
+}
+.page-header-title{
+  height: 60rpx;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  grid-template-rows: 100%;
+  color: #52a0e3;
+  font-weight: 900;
+}
+.page-header-title-item{
+  line-height: 60rpx;
+}
+.page-header-title-item-line{
+  width: 10rpx;
+  height: 50%;
+  background: #2496ff;
+  border-radius: 5rpx;
+  margin: 40% auto;
+}
+.page-header-content{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: repeat(5,70rpx);
+}
+.page-header-content-item{
+  line-height: 70rpx;
+}
+.page-header-content-item:nth-child(2n-1){
+  text-align: center;
+}
+.page-header-content-item:nth-child(2n){
+  text-align: right;
+  color: #2396f8;
+  padding-right: 20rpx;
+}
+/* 检查内容 */
+.page-checkcontent{
+  width: 95%;
+  background-color: white;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.page-check-content{
+  padding: 10rpx 20rpx;
+}
+.form-required{
+  color: #f25f64;
+}
+.page-section-title{
+  font-weight: 900;
+  margin-bottom: 10rpx;
+}
+.radio-group{
+  display: flex;
+}
+.radio-item{
+  flex: 1;
+  padding-left: 20rpx;
+}
+.section{
+  margin-bottom: 20rpx;
+}
+.section:nth-child(2){
+  border: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  padding: 10rpx 20rpx;
+}
+.page__bd{
+  height: 220rpx;
+}
+.uploadimg{
+  height: 200rpx;
+  float: left;
+  margin-right: 20rpx;
+  position: relative;
+}
+.uploadimg:last-child{
+  margin: 0;
+}
+.uploadimg-con{
+  width: 200rpx;
+  height: 200rpx;
+  background: #ccc;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 80rpx;
+}
+.closeimg{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

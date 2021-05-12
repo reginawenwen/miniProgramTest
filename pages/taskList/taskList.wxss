@@ -1,0 +1,84 @@
+/* pages/taskList/taskList.wxss */
+.page{
+  margin-bottom: 100rxp;
+}
+.search-box{
+  width: 100%;
+}
+.head-box{
+  display: flex;
+  flex-flow: row;
+  border: 1rpx solid #eee;
+  height: 100rpx;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx;
+  font-size: 24rpx;
+}
+.select-box{
+  width: 130rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.down-icon{
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+}
+.input-box{
+  background-color: #eee;
+  border-radius: 15rpx;
+  height: 70rpx;
+  width: 460rpx;
+  padding: 0 10rpx;
+}
+.rili{
+  width: 55rpx;
+  height: 50rpx;
+}
+.data-list{
+  padding: 10rpx;
+  margin-bottom: 200rpx;
+}
+.data-item{
+  border: 1rpx solid #eee;
+  box-shadow: 0 0 10rpx 0 rgba(24, 144, 255, 0.2);
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+.data-item:last-child{
+  margin-bottom: 180rpx;
+}
+.data-item-head{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.item-line{
+  display: flex;
+  flex-flow: row;
+  margin-top: 15rpx;
+}
+.title{
+  color: #888;
+  width: 180rpx;
+  flex-shrink: 0;
+}
+.content{
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.no-data{
+  display: flex;
+  justify-content: center;
+}
+.no-image{
+  width: 60%;
+  margin-top: 250rpx;
+}
