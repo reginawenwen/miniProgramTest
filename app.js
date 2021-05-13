@@ -12,6 +12,7 @@ App({
         // truly test
         // wenwen branch test
         // test tip
+        // github test
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
