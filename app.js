@@ -10,6 +10,7 @@ App({
     wx.login({
       success: res => {
         // truly test
+        // wenwen branch test
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
