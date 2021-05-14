@@ -28,3 +28,10 @@ export function configList() {
     url: '/public/api/seaweed/v1/config/list'
   })
 }
+export function wenwenlogin(params) {
+  return reqeust({
+    url: 'api/wx/mini-login',
+    method: 'post',
+    data:params
+  })
+}
