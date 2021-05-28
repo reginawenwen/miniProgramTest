@@ -13,6 +13,7 @@ Page({
     })
   },
   tipfun: function() {
+    console.log('123')
     wx.showToast({
       title: '暂未开通',
       icon: 'none',
