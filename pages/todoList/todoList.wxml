@@ -1,0 +1,22 @@
+<view class="wen-box">
+  <view class="title-box">
+    <button class="mini-btn" type="primary" size="mini" bindtap="toAddPage">添加任务</button>
+    <button class="mini-btn" type="primary" size="mini">筛选任务</button>
+    <button class="mini-btn" type="primary" size="mini">批量删除</button>
+  </view>
+  <view class="task-list">
+    <view class="page__bd">
+      <mp-cells title="任务列表项">
+          <mp-cell link hover url="../index" value="建设者小镇" footer="查看任务详情">
+              <image slot="icon" src="{{icon}}" class="iconstyle"></image>
+          </mp-cell>
+          <mp-cell link hover url="../index" value="建设者小镇" footer="查看任务详情">
+              <image slot="icon" src="{{icon}}" class="iconstyle"></image>
+          </mp-cell>
+          <mp-cell link hover url="../index" value="建设者小镇" footer="查看任务详情">
+              <image slot="icon" src="{{icon}}" class="iconstyle"></image>
+          </mp-cell>
+      </mp-cells>
+    </view>
+  </view>
+</view>

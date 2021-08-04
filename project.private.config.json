@@ -1,0 +1,50 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/taskList/taskList",
+          "pathName": "pages/taskList/taskList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/todoList/todoList",
+          "pathName": "pages/todoList/todoList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/addTask/addTask",
+          "pathName": "pages/addTask/addTask",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
